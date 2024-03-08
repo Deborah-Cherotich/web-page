@@ -1,0 +1,184 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(238, 215, 206);
+}
+.home{
+    color: orangered;
+}
+
+
+
+ button{
+    border: 1px solid;
+    border-radius: 40px;
+    padding: 10px;
+    background-color: yellow;
+    color: aliceblue;
+} 
+.content1{
+    background-image: url(./images/backgroundimage.avif);
+    width: 90%;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+#text{
+    
+    align-items: center;
+    padding-left: 200px;
+    padding-top: 100px;
+
+}
+#paragraph{
+    font-size: 100px;
+    color: rgb(179, 113, 26);
+}
+#paragraph1{
+    font-size: 50px;
+    color: rgb(220, 151, 13);
+}
+.sec1{
+    display: grid;
+}
+#sect2{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+#text1{
+    font-size: 40px;
+}
+#txt{
+    font-size: 50px;
+}
+#txt1{
+    color: orangered;
+}
+#txt2{
+    display: flex;
+}
+#logos{
+    display: flex;
+    justify-content: space-around;
+}
+#service{
+    display: flex;
+    justify-content: space-around;
+}
+#read{
+    color: orangered;
+}
+#videop{
+    display: flex;
+}
+#text3{
+    display: flex;
+    justify-content: space-around;
+}
+#text4{
+    font-size: 40px;
+    color: orange;
+}
+#content2{
+    background-image: url(./images/backgroundimage2.jpeg);
+    width: 60%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    display: flex;
+}
+#text5{
+    font-size: 25px;
+}
+#content3{
+    display: flex;
+}
+#demo{
+    text-align: center;
+    font-size: 30px;
+}
+#background{
+    background-image: url(./images/background\ image3.jpeg);
+    
+    width: 90%;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+#allitems{
+    display: flex;
+    
+
+
+
+}
+#testimonies{
+    display: flex;
+    justify-content: space-around;
+}
+#test{
+    text-align: center;
+}
+#butt{
+    text-align: center;
+    display: flex;
+
+}
+#news{
+    text-align: center;
+}
+#blogs{
+    text-align: center;
+}
+
+#checks{
+    display: flex;
+    justify-content: space-around;
+}
+#support{font-size: 30px;
+
+}
+#discover{
+    display: flex;
+    justify-content: space-around;
+    background-color: yellow;
+    font-size: 30px;
+}
+#foot{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: antiquewhite;
+}
+#home{
+    color: orangered;
+}
+#image2{
+    width: 30px;
+    height: 30px;
+    display: flex;
+}
+#sides{
+    display: flex;
+    font-size: 30px;}
+footer{
+background-color: black;
+}
+#main{
+    text-align: center;
+    color: aliceblue;
+}
+
+    @media screen and (max-width: 800px) {
+        .left, .main, .right, .body {
+          width: 100%; 
+        }
+      }  
+
+
+      
+      
